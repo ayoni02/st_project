@@ -22,8 +22,8 @@ def get_doc():
 
 def get_prompt(dprompt):
     dtype = st.text_input("Input document type (e.g tecnical) :")
-    audience = st.text_input("Input your taget audience (e.g devolopers): ")
-    goal = st.text_input("What is your goal for the document (e.g 'users onboarding for a seamless app journey/UX'): ")
+    audience = st.text_input("Input your target audience (e.g developers): ")
+    goal = st.text_input("What is your goal for the document (e.g. 'users onboarding for a seamless app journey/UX'): ")
     tone = st.text_input("What tone should the document carry (e.g professional): ")
     prompt =f"""
         I would like to generate a {dtype} document for {audience} to provide {goal}.

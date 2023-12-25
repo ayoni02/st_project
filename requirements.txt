@@ -1,4 +1,3 @@
-docx
-streamlit
+python-docx
 google-generativeai
-re
+
